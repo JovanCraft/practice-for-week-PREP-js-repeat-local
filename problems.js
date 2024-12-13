@@ -6,6 +6,7 @@ function divideByThree(num) {
 
 // console.log(divideByThree(9))
 
+
 function averageOfTwo(num1, num2) {
     /* Returns the average of two numbers, num1 and num2. */
     // Your code here
@@ -14,6 +15,7 @@ function averageOfTwo(num1, num2) {
 };
 
 // console.log(averageOfTwo(9, 5))
+
 
 function averageOfFour(num1, num2, num3, num4) {
     /* Takes in four numbers. The function should return the average of all of
@@ -24,6 +26,7 @@ function averageOfFour(num1, num2, num3, num4) {
 };
 
 // console.log(averageOfFour(4, 8, 12, 16))
+
 
 function doubler(nums) {
     /* Takes an array of numbers and returns a new array where every element of
@@ -38,6 +41,7 @@ function doubler(nums) {
 
 // console.log(doubler([2, 4, 6, 8]))
 
+
 function combineArrays(arr1, arr2) {
     /* Takes in two arrays of numbers and returns the two arrays combined into
     a single array. **Hint**: Use the `Array.concat` method but be aware that
@@ -51,6 +55,7 @@ function combineArrays(arr1, arr2) {
 
 // console.log(combineArrays([1, 2], [3, 4]))
 
+
 function wordWithinArray(word, arr) {
     /* Takes in both a word and an array of words as arguments and returns a
     boolean that returns true if that string is located inside of the array, or
@@ -60,7 +65,9 @@ function wordWithinArray(word, arr) {
 };
 
 // console.log(wordWithinArray('art', ['bike', 'green', 'art', 'beach', 'soap']))
+
 // console.log(wordWithinArray('lip', ['coyote', 'battle', 'mars']))
+
 
 function echo(str) {
     /* Takes in a string and returns that string "echo-ized". E.g.
@@ -73,6 +80,7 @@ function echo(str) {
 };
 
 // console.log(echo(`Mom`))
+
 
 function fizzBuzz(max) {
     /* Takes a number, max and returns an array that contains every number from
@@ -92,6 +100,7 @@ function fizzBuzz(max) {
 
 // console.log(fizzBuzz(19))
 
+
 function hello(name) {
     /* Takes in a string name and returns a string saying "Hello, " to that name. */
     // Your code here
@@ -99,6 +108,7 @@ function hello(name) {
 };
 
 // console.log(hello('Gerald'))
+
 
 function goodbye(name) {
     /* Takes in a string name and returns a string saying "Bye, " to that name. */
@@ -108,6 +118,7 @@ function goodbye(name) {
 
 // console.log(goodbye(`Felicia`))
 
+
 function isFive(num) {
     /* Takes in a number, num, and returns `true` if a number is equal to 5 and
     `false` if it is not. */
@@ -116,7 +127,9 @@ function isFive(num) {
 };
 
 // console.log(isFive(7))
+
 // console.log(isFive(5))
+
 
 function isOdd(num) {
     /* Takes in a number and returns `true` if the number is odd and returns
@@ -127,7 +140,9 @@ function isOdd(num) {
 };
 
 // console.log(isOdd(17))
+
 // console.log(isOdd(4))
+
 
 function isSubString(searchString, subString) {
     /* Takes in two strings, `searchString` and `subString`. Should return
@@ -140,7 +155,9 @@ function isSubString(searchString, subString) {
 };
 
 // console.log(isSubString('Alabama', 'bam'))
+
 // console.log(isSubString('Cornucopia', 'bet'))
+
 
 function aCounter(word) {
     /* Takes in a word and returns the number of a's within that word. Counts
@@ -172,7 +189,9 @@ function aCounter(word) {
 };
 
 // console.log(aCounter('onomatopoeia'))
+
 // console.log(aCounter('Alabama'))
+
 
 module.exports = {
     divideByThree,
@@ -190,7 +209,3 @@ module.exports = {
     isSubString,
     aCounter
 }
-
-
-
-
